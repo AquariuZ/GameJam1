@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DoorA
   - DoorB
+  - Sacrifice Person
   layers:
   - Default
   - TransparentFX
