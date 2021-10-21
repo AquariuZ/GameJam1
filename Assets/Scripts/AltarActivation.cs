@@ -8,6 +8,8 @@ public class AltarActivation : MonoBehaviour
 
     private SacrificeKey sacrifeKeyType;
 
+    public Material glowMaterialA;
+    public Material glowMaterialB;
 
     public SacrificeKey.SacrificeKeyType GetKeyType()
     {
@@ -18,20 +20,23 @@ public class AltarActivation : MonoBehaviour
     {
         Debug.Log("altar" + sacrificeKeyType +  "hit");
 
-        //TESTING DO NOT USE
-        //GameObject.FindGameObjectWithTag("Door1").SetActive(false);
-        //gameObject.SetActive(false);
+        //Turn on glow emmission on activation
         
+
+        //Open doors depending on altar activated       
         if (sacrificeKeyType == SacrificeKey.SacrificeKeyType.TypeA)
         {
             GameObject.FindGameObjectWithTag("DoorA").SetActive(false);
+            glowMaterialA.EnableKeyword("_EMISSION");
         }
         else if (sacrificeKeyType == SacrificeKey.SacrificeKeyType.TypeB)
         {
             GameObject.FindGameObjectWithTag("DoorB").SetActive(false);
+            glowMaterialB.EnableKeyword("_EMISSION");
         }
 
-        //Add glow mat
+        
+
     }
 
   

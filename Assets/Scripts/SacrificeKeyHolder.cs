@@ -5,6 +5,7 @@ using UnityEngine;
 public class SacrificeKeyHolder : MonoBehaviour
 {
     private List<SacrificeKey.SacrificeKeyType> sacrificeKeyList;
+   
 
     private void Awake()
     {
