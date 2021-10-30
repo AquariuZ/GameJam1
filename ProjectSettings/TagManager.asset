@@ -7,6 +7,8 @@ TagManager:
   - DoorA
   - DoorB
   - Sacrifice Person
+  - Pickup
+  - Altar
   layers:
   - Default
   - TransparentFX
@@ -17,9 +19,9 @@ TagManager:
   - 
   - 
   - Glow
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - Pickup
   - 
   - 
   - 
