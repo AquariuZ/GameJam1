@@ -9,8 +9,6 @@ public class AltarDoor : AltarPiece
     public override void Activate()
     {
         base.Activate();
-        //gameObject.SetActive(false);
-
         transform.DOMove(transform.position + moveOffset, moveDuration).SetEase(easeType).OnComplete(() => gameObject.SetActive(false));
     }
 }
