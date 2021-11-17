@@ -3,12 +3,39 @@ using UnityEngine;
 
 public class AltarDoor : AltarPiece
 {
+    [SerializeField] private Transform moveTransform = null;
     [SerializeField] private Vector3 moveOffset = Vector3.zero;
+    [SerializeField] private Transform rotateTransform = null;
+    [SerializeField] private Vector3 rotateOffset = Vector3.zero;
     [SerializeField] private float moveDuration = 1.0f;
     [SerializeField] private Ease easeType = Ease.OutBack;
+    [SerializeField] private bool hideOnComplete = false;
+
     public override void Activate()
     {
         base.Activate();
-        transform.DOMove(transform.position + moveOffset, moveDuration).SetEase(easeType).OnComplete(() => gameObject.SetActive(false));
+
+        if (moveTransform == null)
+            moveTransform = transform;
+        if (rotateTransform == null)
+            rotateTransform = transform;
+
+        if (moveOffset != Vector3.zero)
+        {
+            moveTransform.DOMove(transform.position + moveOffset, moveDuration).SetEase(easeType).OnComplete(() =>
+            {
+                if (hideOnComplete)
+                    gameObject.SetActive(false);
+            });
+        }
+
+        if (rotateOffset != Vector3.zero)
+        {
+            rotateTransform.DORotate(transform.rotation.eulerAngles + rotateOffset, moveDuration).SetEase(easeType).OnComplete(() =>
+            {
+                if (hideOnComplete)
+                    gameObject.SetActive(false);
+            });
+        }
     }
 }
