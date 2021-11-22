@@ -9,6 +9,7 @@ TagManager:
   - Sacrifice Person
   - Pickup
   - Altar
+  - Tile
   layers:
   - Default
   - TransparentFX
