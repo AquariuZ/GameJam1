@@ -24,6 +24,7 @@ public class Altar : MonoBehaviour
 
     public virtual void Activate()
     {
+        Debug.Log($"Activating altar: {name}");
         sacrifice.Place();
         altarRenderer.material = activatedMaterial;
 
