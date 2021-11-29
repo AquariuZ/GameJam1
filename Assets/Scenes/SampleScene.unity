@@ -186,7 +186,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9920382, y: 1}
+    m_SensorSize: {x: 2.904936, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -202,7 +202,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244956587}
-  m_LocalRotation: {x: 0.22064845, y: 0.000000044173493, z: -0.0000000099931095, w: 0.9753534}
+  m_LocalRotation: {x: 0.22064845, y: -0.000000016168633, z: 0.0000000036577346, w: 0.9753534}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -632,7 +632,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9920382, y: 1}
+    m_SensorSize: {x: 2.904936, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -859,7 +859,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9920382, y: 1}
+    m_SensorSize: {x: 2.904936, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -930,7 +930,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9920382, y: 1}
+    m_SensorSize: {x: 2.904936, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -941,7 +941,7 @@ MonoBehaviour:
   m_YAxis:
     Value: 0.5
     m_SpeedMode: 0
-    m_MaxSpeed: 4
+    m_MaxSpeed: 0
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
@@ -970,7 +970,7 @@ MonoBehaviour:
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
     m_InputAxisValue: 0
-    m_InvertInput: 1
+    m_InvertInput: 0
     m_MinValue: -180
     m_MaxValue: 180
     m_Wrap: 1
@@ -1091,12 +1091,12 @@ PrefabInstance:
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -3.9011513e-10
+      value: 3.9014808e-10
       objectReference: {fileID: 0}
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -9.591902e-11
+      value: 9.580308e-11
       objectReference: {fileID: 0}
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
@@ -1112,6 +1112,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640446398648628423, guid: 764e7592eec698a47a797bdaaf987c09,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4180311496543212335, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
@@ -1527,6 +1532,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8363711009269986032, guid: 4e171ed9e94840c46ab2ff617b81d26c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8363711009269986037, guid: 4e171ed9e94840c46ab2ff617b81d26c,
         type: 3}
       propertyPath: m_Name
