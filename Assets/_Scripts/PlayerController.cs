@@ -99,10 +99,17 @@ public class PlayerController : MonoBehaviour
         {
             if (col.TryGetComponent(out Altar foundAltar))
             {
-                if (pickups.Contains(foundAltar.sacrifice))
+                if (foundAltar.sacrifice == null)
                 {
                     foundAltar.Activate();
-                    pickups.Remove(foundAltar.sacrifice);
+                }
+                else
+                {
+                    if (pickups.Contains(foundAltar.sacrifice))
+                    {
+                        foundAltar.Activate();
+                        pickups.Remove(foundAltar.sacrifice);
+                    }
                 }
             }
         }

@@ -19,16 +19,22 @@ public class Altar : MonoBehaviour
         if(altarRenderer == null)
             altarRenderer = GetComponentInChildren<MeshRenderer>();
 
-        VFX_StartEventHash = Shader.PropertyToID(VFX_StartEvent);
+        if(VFX_StartEvent != "")
+            VFX_StartEventHash = Shader.PropertyToID(VFX_StartEvent);
     }
 
     public virtual void Activate()
     {
         Debug.Log($"Activating altar: {name}");
-        sacrifice.Place();
-        altarRenderer.material = activatedMaterial;
 
-        VFX.SendEvent(VFX_StartEventHash);
+        if(sacrifice != null)
+            sacrifice.Place();
+
+        if(altarRenderer != null && activatedMaterial != null)
+            altarRenderer.material = activatedMaterial;
+
+        if(VFX != null)
+            VFX.SendEvent(VFX_StartEventHash);
 
         foreach (var piece in pieces)
         {
