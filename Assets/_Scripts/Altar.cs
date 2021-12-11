@@ -28,7 +28,7 @@ public class Altar : MonoBehaviour
 
     public virtual void Activate()
     {
-        if (onlyActivateOnce && activated) return;
+        if (!CanBeActivated()) return;
 
         Debug.Log($"Activating altar: {name}");
 
@@ -44,5 +44,11 @@ public class Altar : MonoBehaviour
         {
             piece.Activate();
         }
+    }
+
+    public bool CanBeActivated()
+    {
+        if (!onlyActivateOnce) return true;
+        return !activated;
     }
 }

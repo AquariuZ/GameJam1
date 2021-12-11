@@ -105,6 +105,7 @@ public class PlayerController : MonoBehaviour
                 }
                 else
                 {
+                    if (!foundAltar.CanBeActivated()) return;
                     foreach (var sacrifice in foundAltar.sacrifice)
                     {
                         if (pickups.Contains(sacrifice))
