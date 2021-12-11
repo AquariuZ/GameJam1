@@ -105,10 +105,15 @@ public class PlayerController : MonoBehaviour
                 }
                 else
                 {
-                    if (pickups.Contains(foundAltar.sacrifice))
+                    foreach (var sacrifice in foundAltar.sacrifice)
                     {
-                        foundAltar.Activate();
-                        pickups.Remove(foundAltar.sacrifice);
+                        if (pickups.Contains(sacrifice))
+                        {
+                            foundAltar.Activate();
+                            sacrifice.Place();
+                            pickups.Remove(sacrifice);
+                            break;
+                        }
                     }
                 }
             }

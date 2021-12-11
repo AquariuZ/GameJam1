@@ -11,16 +11,26 @@ public class AltarDoor : AltarPiece
     [SerializeField] private Ease easeType = Ease.OutBack;
     [SerializeField] private bool hideOnComplete = false;
 
+    private Vector3 startPos;
+    private Quaternion startRot;
+
+    void Awake()
+    {
+        startPos = transform.position;
+        startRot = transform.rotation;
+    }
+
     public override void Activate()
     {
         base.Activate();
 
         if (moveTransform == null)
             moveTransform = transform;
+
         if (rotateTransform == null)
             rotateTransform = transform;
 
-        if (moveOffset != Vector3.zero)
+        if (moveOffset != Vector3.zero && moveTransform.position == startPos)
         {
             moveTransform.DOMove(transform.position + moveOffset, moveDuration).SetEase(easeType).OnComplete(() =>
             {
@@ -29,7 +39,7 @@ public class AltarDoor : AltarPiece
             });
         }
 
-        if (rotateOffset != Vector3.zero)
+        if (rotateOffset != Vector3.zero && rotateTransform.rotation == startRot)
         {
             rotateTransform.DORotate(transform.rotation.eulerAngles + rotateOffset, moveDuration).SetEase(easeType).OnComplete(() =>
             {

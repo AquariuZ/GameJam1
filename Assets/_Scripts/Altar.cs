@@ -3,7 +3,7 @@ using UnityEngine.VFX;
 
 public class Altar : MonoBehaviour
 {
-    public Pickup sacrifice;
+    public Pickup[] sacrifice;
     [SerializeField] private AltarPiece[] pieces;
 
     [SerializeField] private MeshRenderer altarRenderer;
@@ -12,7 +12,10 @@ public class Altar : MonoBehaviour
     [SerializeField] private VisualEffect VFX;
     [SerializeField] private string VFX_StartEvent;
 
+    [SerializeField] private bool onlyActivateOnce = true;
+
     private int VFX_StartEventHash;
+    private bool activated = false;
 
     void Awake()
     {
@@ -25,10 +28,11 @@ public class Altar : MonoBehaviour
 
     public virtual void Activate()
     {
+        if (onlyActivateOnce && activated) return;
+
         Debug.Log($"Activating altar: {name}");
 
-        if(sacrifice != null)
-            sacrifice.Place();
+        activated = true;
 
         if(altarRenderer != null && activatedMaterial != null)
             altarRenderer.material = activatedMaterial;
