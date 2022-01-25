@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEditor;
 
@@ -21,6 +22,10 @@ public class FallingTile : MonoBehaviour
     private BoxCollider _boxCollider;
     private bool _triggered = false;
     private float _timer = 0.0f;
+    
+    //materials for animation
+    private Material crackedMat;
+    private Material fallingMat;
     void Start()
     {
         _meshRenderer = GetComponent<MeshRenderer>();
@@ -28,6 +33,9 @@ public class FallingTile : MonoBehaviour
         //_boxCollider.isTrigger = true;
         _startPosition = transform.position;
         finalPosition = _startPosition + finalPosition;
+
+        crackedMat = Resources.Load<Material>("Materials/cracked");
+        fallingMat = Resources.Load<Material>("Materials/falling");
     }
 
     // Update is called once per frame
@@ -48,6 +56,18 @@ public class FallingTile : MonoBehaviour
         if (!other.gameObject.CompareTag("Player")) return;
         
         _currentStepCount += 1;
+        switch (_currentStepCount)
+        {
+            case 1:
+                _meshRenderer.material = crackedMat;
+                break;
+            case 2:
+                _meshRenderer.material = fallingMat;
+                break;
+            default:
+                _meshRenderer.material = fallingMat;
+                break;
+        }
     }
 
     private void OnTriggerExit(Collider other)
