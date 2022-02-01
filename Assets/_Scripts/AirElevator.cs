@@ -7,18 +7,19 @@ public class AirElevator : MonoBehaviour
 {
     
     public bool isActivated = true;
-    public float time = 1.0f;
+    public float timeLapse = 1.0f;
     
     private Transform _startPoint;
     private Transform _middlePoint;
     private Transform _endPoint;
 
-    [SerializeField] Vector3 _pointAB;
+    private Vector3 _pointAB;
     private Vector3 _pointBC;
 
     private GameObject _playerRef;
     private bool _isWorking;
-    [SerializeField] private float _interpolateAmount;
+    private float _interpolateAmount;
+    private float _timer;
     void Start()
     {
         _startPoint = transform.Find("StartPoint");
@@ -27,7 +28,7 @@ public class AirElevator : MonoBehaviour
     }
 
     // Update is called once per frame
-    void LateUpdate()
+    void LateUpdate() //so it doesn't care about input.
     {
         if (_isWorking)
         {
@@ -45,7 +46,8 @@ public class AirElevator : MonoBehaviour
             _pointBC = Vector3.Lerp(_middlePoint.position, _endPoint.position, _interpolateAmount);
             _playerRef.transform.position =  Vector3.Lerp(_pointAB, _pointBC, _interpolateAmount);
             
-            _interpolateAmount = (_interpolateAmount + Time.deltaTime) / time;
+            _timer += Time.deltaTime;
+            _interpolateAmount = _timer / timeLapse;
         }
     }
 
