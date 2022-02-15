@@ -129,7 +129,6 @@ GameObject:
   - component: {fileID: 815529119041155061}
   - component: {fileID: 247841256}
   - component: {fileID: 6973173620956217446}
-  - component: {fileID: -141929312980863026}
   - component: {fileID: 4050678207937892002}
   m_Layer: 0
   m_Name: PickupPerson
@@ -189,18 +188,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bddf673e8ed924b4a80a163ddc75b338, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &-141929312980863026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2352225450383886414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73bc2e36506b3b44abddba7590073b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &4050678207937892002

@@ -25,7 +25,7 @@ namespace _Scripts.SaveLoad
             transform.position = new Vector3(saveData.posX, saveData.posY, saveData.posZ);
             transform.rotation = Quaternion.Euler(saveData.rotX, saveData.rotY, saveData.rotZ);
         }
-
+        
         [Serializable]
         private struct SaveData
         {

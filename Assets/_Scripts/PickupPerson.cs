@@ -7,7 +7,8 @@ public class PickupPerson : Pickup
 
     [NonSerialized]
     public bool follow = false;
-    private NavMeshAgent navAgent;
+    [NonSerialized]
+    public NavMeshAgent navAgent;
 
     void Awake()
     {
