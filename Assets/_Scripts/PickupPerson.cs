@@ -1,10 +1,12 @@
-﻿using UnityEngine.AI;
+﻿using System;
+using UnityEngine.AI;
 
 public class PickupPerson : Pickup
 {
     public float stoppingDistance = 2f;
 
-    private bool follow = false;
+    [NonSerialized]
+    public bool follow = false;
     private NavMeshAgent navAgent;
 
     void Awake()
@@ -21,7 +23,7 @@ public class PickupPerson : Pickup
     public override void Place()
     {
         base.Place();
-        Destroy(gameObject);
+        this.gameObject.SetActive(false);
     }
 
     void Update()

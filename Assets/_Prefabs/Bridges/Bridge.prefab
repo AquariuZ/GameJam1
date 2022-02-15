@@ -72,6 +72,8 @@ GameObject:
   - component: {fileID: 5115645837513294094}
   - component: {fileID: 5710368401971660144}
   - component: {fileID: 1795367187837979558}
+  - component: {fileID: -4010375193227575877}
+  - component: {fileID: 4875913454844789065}
   m_Layer: 9
   m_Name: Bridge
   m_TagString: Tile
@@ -132,6 +134,30 @@ OffMeshLink:
   m_BiDirectional: 1
   m_Activated: 1
   m_AutoUpdatePositions: 0
+--- !u!114 &-4010375193227575877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2917258581193830065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddf673e8ed924b4a80a163ddc75b338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4875913454844789065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2917258581193830065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7786bc09d8068240a02278e255a5bfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &7228356330635200817
 BoxCollider:
   m_ObjectHideFlags: 0

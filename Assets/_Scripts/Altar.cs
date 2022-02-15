@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.VFX;
 
 public class Altar : MonoBehaviour
@@ -15,7 +16,9 @@ public class Altar : MonoBehaviour
     [SerializeField] private bool onlyActivateOnce = true;
 
     private int VFX_StartEventHash;
-    private bool activated = false;
+    
+    [NonSerialized]
+    public bool activated = false;
 
     void Awake()
     {
@@ -46,6 +49,11 @@ public class Altar : MonoBehaviour
         }
     }
 
+    public void ChangeMaterial()
+    {
+        altarRenderer.material = activatedMaterial;
+    }
+    
     public bool CanBeActivated()
     {
         if (!onlyActivateOnce) return true;
