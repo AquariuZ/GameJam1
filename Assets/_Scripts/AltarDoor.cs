@@ -1,4 +1,5 @@
-﻿using DG.Tweening;
+﻿using System;
+using DG.Tweening;
 using UnityEngine;
 
 public class AltarDoor : AltarPiece
@@ -14,6 +15,9 @@ public class AltarDoor : AltarPiece
     private Vector3 startPos;
     private Quaternion startRot;
 
+    [NonSerialized]
+    public bool activated = false;
+
     void Awake()
     {
         startPos = transform.position;
@@ -24,6 +28,7 @@ public class AltarDoor : AltarPiece
     {
         base.Activate();
 
+        activated = true;
         if (moveTransform == null)
             moveTransform = transform;
 
