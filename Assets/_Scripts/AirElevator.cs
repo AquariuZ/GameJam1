@@ -9,9 +9,9 @@ public class AirElevator : MonoBehaviour
     public bool isActivated = true;
     public float timeLapse = 1.0f;
     
-    private Transform _startPoint;
-    private Transform _middlePoint;
-    private Transform _endPoint;
+    public Transform _startPoint;
+    public Transform _middlePoint;
+    public Transform _endPoint;
 
     private Vector3 _pointAB;
     private Vector3 _pointBC;
@@ -20,12 +20,6 @@ public class AirElevator : MonoBehaviour
     private bool _isWorking;
     private float _interpolateAmount;
     private float _timer;
-    void Start()
-    {
-        _startPoint = transform.Find("StartPoint");
-        _middlePoint = transform.Find("MiddlePoint");
-        _endPoint = transform.Find("EndPoint");
-    }
 
     // Update is called once per frame
     void LateUpdate() //so it doesn't care about input.
