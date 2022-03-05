@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SettingsMenu : MonoBehaviour
+public class OpeningScene : MonoBehaviour
 {
-    public void Back2()
+    public void StartGame()
     {
         SceneManager.LoadScene(1);
     }
