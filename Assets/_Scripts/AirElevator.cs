@@ -16,7 +16,7 @@ public class AirElevator : MonoBehaviour
     private Vector3 _pointAB;
     private Vector3 _pointBC;
 
-    private GameObject _playerRef;
+    private PlayerController _playerRef;
     private bool _isWorking;
     private float _interpolateAmount;
     private float _timer;
@@ -28,6 +28,8 @@ public class AirElevator : MonoBehaviour
         {
             if (_interpolateAmount > 1.0f)
             {
+                //is done
+                _playerRef.transform.Find("GroundCheck").gameObject.SetActive(true);
                 _isWorking = false;
                 return;
             }
@@ -52,7 +54,8 @@ public class AirElevator : MonoBehaviour
             if (isActivated)
             {
                 _isWorking = true;
-                _playerRef = other.gameObject;
+                _playerRef = other.gameObject.GetComponent<PlayerController>();
+                _playerRef.transform.Find("GroundCheck").gameObject.SetActive(false);
             }
         }
     }

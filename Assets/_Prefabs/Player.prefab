@@ -89,6 +89,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1045084676787316880}
   - component: {fileID: 2957380534847019682}
+  - component: {fileID: 1648149754}
+  - component: {fileID: 1648149753}
   m_Layer: 10
   m_Name: GroundCheck
   m_TagString: Untagged
@@ -104,7 +106,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6073974428052221884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.032, y: -0.989, z: 0.087}
+  m_LocalPosition: {x: -0.032, y: -1.434, z: 0.087}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8363711009269986038}
@@ -122,6 +124,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c4f4078ae00c4458fbc4cbd30546b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeInAirTillDeath: 0.2
+--- !u!54 &1648149754
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6073974428052221884}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1648149753
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6073974428052221884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8363711009269986037
 GameObject:
   m_ObjectHideFlags: 0
