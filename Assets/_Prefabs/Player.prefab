@@ -170,6 +170,7 @@ GameObject:
   - component: {fileID: 60109239}
   - component: {fileID: 60109240}
   - component: {fileID: -4315678647613157736}
+  - component: {fileID: 1453294350}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -230,7 +231,6 @@ MonoBehaviour:
   turnSmoothTime: 0.1
   gravity: 14
   jumpForce: 5
-  pickups: []
 --- !u!136 &8363711009269986033
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -297,6 +297,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e1c9b21cb9c9c40a2bed2bd3e36f5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1453294350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8363711009269986037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4128b39629ca00645bf719df4241dc11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupKey: 101
+  sacrificeKey: 101
+  altarLayerMask:
+    serializedVersion: 2
+    m_Bits: 8192
+  pickupLayerMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  pickupRadius: 5
+  sacrificeRadius: 5
 --- !u!1 &8363711010000610319
 GameObject:
   m_ObjectHideFlags: 0

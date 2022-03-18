@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 8828970538729513967}
   - component: {fileID: 9182377988886824863}
   - component: {fileID: 4595090292959235821}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Altar
   m_TagString: Altar
   m_Icon: {fileID: 0}
@@ -183,13 +183,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d249c003c7885794f80002eedeeac5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sacrifice: {fileID: 0}
+  sacrifice:
+  - {fileID: 0}
   pieces:
   - {fileID: 0}
   altarRenderer: {fileID: 0}
   activatedMaterial: {fileID: 2100000, guid: 93b987f8c66374242b0e66a13cf2eb84, type: 2}
   VFX: {fileID: 7616893722391038427}
   VFX_StartEvent: Sacrifice
+  onlyActivateOnce: 1
 --- !u!65 &4595090292959235821
 BoxCollider:
   m_ObjectHideFlags: 0

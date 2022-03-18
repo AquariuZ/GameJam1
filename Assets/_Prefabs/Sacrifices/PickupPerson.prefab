@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 247841256}
   - component: {fileID: 6973173620956217446}
   - component: {fileID: 4050678207937892002}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PickupPerson
   m_TagString: Pickup
   m_Icon: {fileID: 0}

@@ -168,7 +168,7 @@ PrefabInstance:
     - target: {fileID: 9082866512299335084, guid: 5e5aeadf3d852a24a8c1903f2c92c0a7,
         type: 3}
       propertyPath: m_Name
-      value: Altar_Level_2
+      value: Altar_Level_2 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 9182377988886824863, guid: 5e5aeadf3d852a24a8c1903f2c92c0a7,
         type: 3}

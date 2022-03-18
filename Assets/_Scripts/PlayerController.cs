@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     //Jump
     public float jumpForce;
 
-    public List<Pickup> pickups = new List<Pickup>();
+    public HashSet<Pickup> pickups = new HashSet<Pickup>();
 
     public static PlayerController player;
 
@@ -83,7 +83,7 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.CompareTag("Pickup"))
+        /*if (col.gameObject.CompareTag("Pickup"))
         {
             if (col.TryGetComponent(out Pickup foundPickup))
             {
@@ -118,6 +118,6 @@ public class PlayerController : MonoBehaviour
                     }
                 }
             }
-        }
+        }*/
     }
 }
