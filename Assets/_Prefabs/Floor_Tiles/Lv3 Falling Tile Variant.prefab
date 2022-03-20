@@ -16,7 +16,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7db5626725ab543499f1e009c729f045, type: 2}
+      objectReference: {fileID: 2100000, guid: f7c1c9ebe1ab3ee4dadb7ec5d39603d0, type: 2}
     - target: {fileID: 9095468490318175445, guid: 9e9cec384c5443541a740323f6811fd1,
         type: 3}
       propertyPath: m_RootOrder
@@ -154,7 +154,7 @@ PrefabInstance:
     - target: {fileID: 5853577639785689963, guid: 826427f272c678248b587fafc716668b,
         type: 3}
       propertyPath: m_Name
-      value: Lv3 Falling Tile
+      value: Lv3 Falling Tile Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8214258334744623349, guid: 826427f272c678248b587fafc716668b,
         type: 3}
