@@ -317,8 +317,8 @@ MonoBehaviour:
   pickupLayerMask:
     serializedVersion: 2
     m_Bits: 2048
-  pickupRadius: 5
-  sacrificeRadius: 5
+  pickupRadius: 0.5
+  sacrificeRadius: 0.5
 --- !u!1 &8363711010000610319
 GameObject:
   m_ObjectHideFlags: 0
