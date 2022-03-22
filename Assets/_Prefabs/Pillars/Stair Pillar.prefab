@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1473432657492930026}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 6860752442852077636}
   - component: {fileID: 5254255282706373541}
   - component: {fileID: 1860323083222100365}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Stair Pillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}

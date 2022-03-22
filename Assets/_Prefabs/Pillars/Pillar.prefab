@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 2774049488336492878}
   - component: {fileID: 7480173953516707145}
   - component: {fileID: 4921516489865181303}
-  m_Layer: 0
-  m_Name: Ometeotl_Stairs_low_UNWRAPPED
+  m_Layer: 9
+  m_Name: Pillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 3058213401070873730}
   - component: {fileID: 1770221199787577885}
   - component: {fileID: 2886105219423939709}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TriggerBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}

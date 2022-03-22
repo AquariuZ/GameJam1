@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5100212421615238958}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8477091008960342540}
   - component: {fileID: 750149102248813176}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Moveable Pillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}

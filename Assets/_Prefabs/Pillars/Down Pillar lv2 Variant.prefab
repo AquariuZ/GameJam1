@@ -90,6 +90,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ON_Pillar_Lv2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f07c1f59e46d5a146bfd901bc2f92b38,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f07c1f59e46d5a146bfd901bc2f92b38, type: 3}
 --- !u!1001 &4392131309008682484
@@ -99,6 +104,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 36261159118664707, guid: 6a6b5067193995c41b0df23df380878d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 750149102248813176, guid: 6a6b5067193995c41b0df23df380878d,
         type: 3}
       propertyPath: moveOffset.y
@@ -163,6 +173,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Down Pillar lv2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994669278256633545, guid: 6a6b5067193995c41b0df23df380878d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a6b5067193995c41b0df23df380878d, type: 3}
