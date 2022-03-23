@@ -217,7 +217,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 343449c23cb3db14b86a5100de7df2a9,
         type: 3}
       propertyPath: m_Name
-      value: Sacrifice_M_Tilmatl_03
+      value: Capsule
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 343449c23cb3db14b86a5100de7df2a9,
         type: 3}

@@ -217,7 +217,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3efa1e8185e6234488b7cf051bf6e3df,
         type: 3}
       propertyPath: m_Name
-      value: Sacrifice_F_Quechquemitl
+      value: Capsule
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3efa1e8185e6234488b7cf051bf6e3df,
         type: 3}

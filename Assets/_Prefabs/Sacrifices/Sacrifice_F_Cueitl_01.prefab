@@ -217,7 +217,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b781be58faf6da5458e3250f2c6c009d,
         type: 3}
       propertyPath: m_Name
-      value: Sacrifice_F_Cueitl_01
+      value: Capsule
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b781be58faf6da5458e3250f2c6c009d,
         type: 3}

@@ -217,7 +217,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d685fbe072bf064429ba0a753eae272d,
         type: 3}
       propertyPath: m_Name
-      value: Sacrifice_Eagle
+      value: Capsule
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d685fbe072bf064429ba0a753eae272d,
         type: 3}
