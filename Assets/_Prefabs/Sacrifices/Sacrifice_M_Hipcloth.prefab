@@ -1,5 +1,33 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1889920427141961973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4495318172143723522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e20ff1157962b44b8dfa62ac408369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlavorText: Enter Text Here
+  Sacrifice: {fileID: 0}
+--- !u!114 &8617296502538625388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4495318172143723522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e20ff1157962b44b8dfa62ac408369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlavorText: Enter Text Here
+  Sacrifice: {fileID: 0}
 --- !u!1001 &2217561686565448780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10,7 +38,7 @@ PrefabInstance:
     - target: {fileID: 2352225450383886414, guid: 44f87b8055d1fec4a834c16f92ae906d,
         type: 3}
       propertyPath: m_Name
-      value: Sacrifice_M_Hipcloth 1
+      value: Sacrifice_M_Hipcloth
       objectReference: {fileID: 0}
     - target: {fileID: 6657489328835905082, guid: 44f87b8055d1fec4a834c16f92ae906d,
         type: 3}
@@ -67,8 +95,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3056640878474824807, guid: 44f87b8055d1fec4a834c16f92ae906d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 44f87b8055d1fec4a834c16f92ae906d, type: 3}
+--- !u!1 &4495318172143723522 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2352225450383886414, guid: 44f87b8055d1fec4a834c16f92ae906d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2217561686565448780}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2565500964525539327 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4421445295603749811, guid: 44f87b8055d1fec4a834c16f92ae906d,
