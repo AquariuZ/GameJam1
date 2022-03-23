@@ -10,7 +10,7 @@ namespace _Scripts.SaveLoad
         private void Awake()
         {
             _pickupPerson = GetComponent<PickupPerson>();
-            _capsule = transform.Find("Model/Capsule").gameObject;
+            _capsule = transform.Find("Model").gameObject;
         }
         public object CaptureState()
         {

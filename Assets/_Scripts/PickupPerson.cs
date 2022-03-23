@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 using UnityEngine.AI;
 
 public class PickupPerson : Pickup
@@ -14,6 +15,11 @@ public class PickupPerson : Pickup
     {
         navAgent = GetComponentInChildren<NavMeshAgent>();
         navAgent.stoppingDistance = stoppingDistance;
+    }
+
+    private void LateUpdate()
+    {
+        transform.rotation = Quaternion.Euler(0.0f, transform.rotation.y, transform.rotation.z);
     }
 
     public override void Take()
