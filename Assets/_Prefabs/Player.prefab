@@ -309,8 +309,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4128b39629ca00645bf719df4241dc11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickupKey: 101
-  sacrificeKey: 101
+  pickupKey: 102
+  sacrificeKey: 102
   altarLayerMask:
     serializedVersion: 2
     m_Bits: 8192
