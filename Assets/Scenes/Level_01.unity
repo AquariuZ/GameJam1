@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.053739846, g: 0.032002978, b: 0.09300002, a: 1}
+  m_IndirectSpecularColor: {r: 0.053737953, g: 0.03200209, b: 0.09299838, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -829,7 +829,7 @@ PrefabInstance:
     - target: {fileID: 4877554211431742124, guid: 647d5c06140435d438e9bf44d90b8df6,
         type: 3}
       propertyPath: LevelBuildIndex
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7785905823539389842, guid: 647d5c06140435d438e9bf44d90b8df6,
         type: 3}
@@ -1407,18 +1407,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877673145}
   m_CullTransparentMesh: 0
---- !u!114 &901427420 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6057595674209507297, guid: a00ddf2b5a4281d4088abb7e438c9c99,
-    type: 3}
-  m_PrefabInstance: {fileID: 4722003150949962225}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &923034171
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,6 +2332,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259600919}
   m_CullTransparentMesh: 0
+--- !u!114 &1314290003 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2870275464191378464, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+    type: 3}
+  m_PrefabInstance: {fileID: 4722003150949962225}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1317151267
 GameObject:
   m_ObjectHideFlags: 0
@@ -3712,7 +3712,7 @@ PrefabInstance:
         type: 3}
       propertyPath: sacrifice.Array.data[0]
       value: 
-      objectReference: {fileID: 901427420}
+      objectReference: {fileID: 1314290003}
     - target: {fileID: 9039103138121706164, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
