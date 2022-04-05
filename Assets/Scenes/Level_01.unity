@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.053737953, g: 0.03200209, b: 0.09299838, a: 1}
+  m_IndirectSpecularColor: {r: 0.053739846, g: 0.032002978, b: 0.09300002, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3133,27 +3133,27 @@ PrefabInstance:
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.2559325
+      value: 0.25593254
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000038211683
+      value: 0.000000025240881
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000001011654
+      value: -0.0000000066825265
       objectReference: {fileID: 0}
     - target: {fileID: 7803403112759546436, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000016168633
+      value: 0.000000044173493
       objectReference: {fileID: 0}
     - target: {fileID: 7803403112759546436, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000036577346
+      value: -0.0000000099931095
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c19974781b92fb44907c10fe432391b, type: 3}
@@ -3607,12 +3607,12 @@ PrefabInstance:
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 3.9014808e-10
+      value: -3.9011513e-10
       objectReference: {fileID: 0}
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 9.580308e-11
+      value: -9.591902e-11
       objectReference: {fileID: 0}
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
@@ -3668,11 +3668,21 @@ PrefabInstance:
       propertyPath: Sacrifice
       value: 
       objectReference: {fileID: 844973697}
+    - target: {fileID: 3143835191159325999, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: FinishDialogueKey
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 3979238357980495920, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
       propertyPath: Sacrifice
       value: 
       objectReference: {fileID: 1421516198}
+    - target: {fileID: 3979238357980495920, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: FinishDialogueKey
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4645040122842228163, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3758,11 +3768,21 @@ PrefabInstance:
       propertyPath: Sacrifice
       value: 
       objectReference: {fileID: 2062858326}
+    - target: {fileID: 6588761961175413357, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: FinishDialogueKey
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8640361687706337301, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
       propertyPath: Sacrifice
       value: 
       objectReference: {fileID: 690372522}
+    - target: {fileID: 8640361687706337301, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: FinishDialogueKey
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 9026732068113825991, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
       propertyPath: Sacrifice
@@ -3772,6 +3792,11 @@ PrefabInstance:
         type: 3}
       propertyPath: FlavorText
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9026732068113825991, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: FinishDialogueKey
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 9039103138121706164, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
