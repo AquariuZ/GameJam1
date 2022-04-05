@@ -10,6 +10,7 @@ TagManager:
   - Pickup
   - Altar
   - Tile
+  - GroundCheck
   layers:
   - Default
   - TransparentFX
