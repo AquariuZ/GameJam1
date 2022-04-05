@@ -56,18 +56,18 @@ public class FallingTile : MonoBehaviour
         if (!other.gameObject.CompareTag("Player")) return;
         
         _currentStepCount += 1;
-        switch (_currentStepCount)
-        {
-            case 1:
-                _meshRenderer.material = crackedMat;
-                break;
-            case 2:
-                _meshRenderer.material = fallingMat;
-                break;
-            default:
-                _meshRenderer.material = fallingMat;
-                break;
-        }
+        // switch (_currentStepCount)
+        // {
+        //     case 1:
+        //         _meshRenderer.material = crackedMat;
+        //         break;
+        //     case 2:
+        //         _meshRenderer.material = fallingMat;
+        //         break;
+        //     default:
+        //         _meshRenderer.material = fallingMat;
+        //         break;
+        // }
     }
 
     private void OnTriggerExit(Collider other)
