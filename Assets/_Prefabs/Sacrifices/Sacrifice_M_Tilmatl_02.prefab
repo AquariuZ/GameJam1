@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FlavorText: Enter Text Here
+  FinishDialogueKey: 32
   Sacrifice: {fileID: 0}
 --- !u!1 &3032159523003571315
 GameObject:
