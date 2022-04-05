@@ -13,7 +13,8 @@ public class SpeechBubbles : MonoBehaviour
     void Start()
     {
         isActivated = false;
-        pickupPerson = Sacrifice.GetComponent<PickupPerson>();
+        if(pickupPerson)
+            pickupPerson = Sacrifice.GetComponent<PickupPerson>();
     }
 
     void OnGUI()
@@ -27,6 +28,7 @@ public class SpeechBubbles : MonoBehaviour
 
     void Update()
     {
+        if (!pickupPerson) return;
         if (pickupPerson.follow)
         {
             isActivated = true;
