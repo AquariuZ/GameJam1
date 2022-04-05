@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FlavorText: Enter Text Here
+  FinishDialogueKey: 32
   Sacrifice: {fileID: 0}
 --- !u!136 &2258962290260579553
 CapsuleCollider:
