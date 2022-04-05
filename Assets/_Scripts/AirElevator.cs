@@ -49,12 +49,12 @@ public class AirElevator : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("GroundCheck"))
         {
             if (isActivated)
             {
                 _isWorking = true;
-                _playerRef = other.gameObject.GetComponent<PlayerController>();
+                _playerRef = other.gameObject.GetComponentInParent<PlayerController>();
                 _playerRef.transform.Find("GroundCheck").gameObject.SetActive(false);
             }
         }
