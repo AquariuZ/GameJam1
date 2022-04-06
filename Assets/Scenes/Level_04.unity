@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.25566936, g: 0.20726326, b: 0.18311012, a: 1}
+  m_IndirectSpecularColor: {r: 0.25568134, g: 0.20725957, b: 0.18304178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -385,7 +385,7 @@ RectTransform:
   m_Children:
   - {fileID: 1365317706}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -413,7 +413,7 @@ PrefabInstance:
     - target: {fileID: 7785905823539389842, guid: 647d5c06140435d438e9bf44d90b8df6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7785905823539389842, guid: 647d5c06140435d438e9bf44d90b8df6,
         type: 3}
@@ -739,7 +739,7 @@ PrefabInstance:
     - target: {fileID: 8363711009269986038, guid: 4e171ed9e94840c46ab2ff617b81d26c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8363711009269986038, guid: 4e171ed9e94840c46ab2ff617b81d26c,
         type: 3}
@@ -1215,10 +1215,15 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8827576561057883145, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: pieces.Array.data[0]
+      value: 
+      objectReference: {fileID: 1916849492}
     - target: {fileID: 8829568470203948146, guid: d64718877aabd5e48aab55da3eb92bfc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8829568470203948146, guid: d64718877aabd5e48aab55da3eb92bfc,
         type: 3}
@@ -1272,6 +1277,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d64718877aabd5e48aab55da3eb92bfc, type: 3}
+--- !u!114 &1916849492 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1595243296278194469, guid: d64718877aabd5e48aab55da3eb92bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916849491}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa9bc894ea4eed4bbb58d6c0c9b7a30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1994801281
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,10 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AirElevator : MonoBehaviour
+public class AirElevator : AltarPiece
 {
     
-    public bool isActivated = true;
+    public bool isActivated = false;
     public float timeLapse = 1.0f;
     
     public Transform _startPoint;
@@ -58,5 +58,11 @@ public class AirElevator : MonoBehaviour
                 _playerRef.transform.Find("GroundCheck").gameObject.SetActive(false);
             }
         }
+    }
+
+    public override void Activate()
+    {
+        base.Activate();
+        isActivated = true;
     }
 }
