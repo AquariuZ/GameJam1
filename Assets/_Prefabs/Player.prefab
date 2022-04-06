@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 1648149753}
   m_Layer: 10
   m_Name: GroundCheck
-  m_TagString: Untagged
+  m_TagString: GroundCheck
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c4f4078ae00c4458fbc4cbd30546b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeInAirTillDeath: 0.2
+  timeInAirTillDeath: 0.35
 --- !u!54 &1648149754
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -152,8 +152,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.5, y: 2, z: 0.5}
+  m_Center: {x: -0.03, y: -0.38, z: 0}
 --- !u!1 &8363711009269986037
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,7 +208,7 @@ CharacterController:
   serializedVersion: 2
   m_Height: 2
   m_Radius: 0.5
-  m_SlopeLimit: 45
+  m_SlopeLimit: 70
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
