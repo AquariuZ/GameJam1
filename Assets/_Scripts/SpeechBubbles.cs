@@ -16,8 +16,7 @@ public class SpeechBubbles : MonoBehaviour
     {
         isActivated = false;
         timeUp = false;
-        if(pickupPerson)
-            pickupPerson = Sacrifice.GetComponent<PickupPerson>();
+        pickupPerson = Sacrifice.GetComponent<PickupPerson>();
     }
 
     void OnGUI()
