@@ -618,6 +618,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264007726}
   m_CullTransparentMesh: 0
+--- !u!1 &299315051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6540522026529515123, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+    type: 3}
+  m_PrefabInstance: {fileID: 4722003150949962225}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &308274915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4639,27 +4645,27 @@ PrefabInstance:
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.2559325
+      value: 0.25593254
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000038211683
+      value: 0.000000025240881
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000001011654
+      value: -0.0000000066825265
       objectReference: {fileID: 0}
     - target: {fileID: 7803403112759546436, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000044173493
+      value: -0.000000016168633
       objectReference: {fileID: 0}
     - target: {fileID: 7803403112759546436, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000099931095
+      value: 0.0000000036577346
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c19974781b92fb44907c10fe432391b, type: 3}
@@ -4851,6 +4857,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2377c5910763d734ca70e5c94659ff6a, type: 3}
+--- !u!1 &1813608842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3029307684751085873, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+    type: 3}
+  m_PrefabInstance: {fileID: 4722003150949962225}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1823221903 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5070111339080131436, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+    type: 3}
+  m_PrefabInstance: {fileID: 4722003150949962225}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1898934411 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 873939876117554075, guid: a00ddf2b5a4281d4088abb7e438c9c99,
@@ -4926,6 +4944,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44f87b8055d1fec4a834c16f92ae906d, type: 3}
+--- !u!1 &1961416684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 472038481517208393, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+    type: 3}
+  m_PrefabInstance: {fileID: 4722003150949962225}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1985582005
 GameObject:
   m_ObjectHideFlags: 0
@@ -5464,12 +5488,12 @@ PrefabInstance:
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -3.9011513e-10
+      value: 3.9014808e-10
       objectReference: {fileID: 0}
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -9.591902e-11
+      value: 9.580308e-11
       objectReference: {fileID: 0}
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
@@ -5589,6 +5613,28 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3143835191159325999, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 299315051}
+    - target: {fileID: 3143835191159325999, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: FlavorText
+      value: "You gotta be careful of edges and traps. It may be your job to sacrifice
+        us, but please don\u2019t sacrifice yourself."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3979238357980495920, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1823221903}
+    - target: {fileID: 3979238357980495920, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: FlavorText
+      value: "Having a hard time seeing? Just press either Q or E to move the camera.
+        How do I know that? Good question\u2026."
+      objectReference: {fileID: 0}
     - target: {fileID: 4645040122842228163, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5659,11 +5705,40 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6588761961175413357, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1813608842}
+    - target: {fileID: 6588761961175413357, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: FlavorText
+      value: "Minute of egg yolk?\u2026.. It\u2019s something I thought I\u2019d
+        heard someone say earlier, I can\u2019t get it out of my head."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640361687706337301, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1961416684}
+    - target: {fileID: 8640361687706337301, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: FlavorText
+      value: "I once had this dream about this bird, and he was talking while eating
+        food. It was the strangest thing, but made me very hungry\u2026."
+      objectReference: {fileID: 0}
     - target: {fileID: 9026732068113825991, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
       propertyPath: Sacrifice
       value: 
       objectReference: {fileID: 1898934411}
+    - target: {fileID: 9026732068113825991, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: FlavorText
+      value: "Use WASD to move. To interact with things you\u2019ll want to hit F.
+        This is used for sacrifices to follow you or as well as to sacrifice them
+        at altars."
+      objectReference: {fileID: 0}
     - target: {fileID: 9039103138121706164, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
