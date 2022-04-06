@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.25566936, g: 0.20726326, b: 0.18311012, a: 1}
+  m_IndirectSpecularColor: {r: 0.25568134, g: 0.20725957, b: 0.18304178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -121,13 +121,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &40039710 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4293491830945417633, guid: d64718877aabd5e48aab55da3eb92bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916849491}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &109808247 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4380048852510450291, guid: d64718877aabd5e48aab55da3eb92bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916849491}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &146208705 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1649234100758390773, guid: d64718877aabd5e48aab55da3eb92bfc,
     type: 3}
   m_PrefabInstance: {fileID: 1916849491}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1221103934}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -139,7 +151,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1916849491}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2138943869}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -157,7 +169,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1916849491}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 984389354}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -169,7 +181,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1916849491}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 851060597}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -333,13 +345,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328081706}
   m_CullTransparentMesh: 0
+--- !u!1 &340419717 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3551316077315142064, guid: d64718877aabd5e48aab55da3eb92bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916849491}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &371091753 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8580061634341107069, guid: d64718877aabd5e48aab55da3eb92bfc,
     type: 3}
   m_PrefabInstance: {fileID: 1916849491}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1179768502}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -464,7 +482,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1916849491}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 109808247}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -494,18 +512,54 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1916849491}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &668238089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8388844764490029146, guid: d64718877aabd5e48aab55da3eb92bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916849491}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &745784462 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1926785087251944971, guid: d64718877aabd5e48aab55da3eb92bfc,
     type: 3}
   m_PrefabInstance: {fileID: 1916849491}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 340419717}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &851060597 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 532271893933183706, guid: d64718877aabd5e48aab55da3eb92bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916849491}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &984389354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4045146401246317321, guid: d64718877aabd5e48aab55da3eb92bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916849491}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1093354084 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1567604535606695049, guid: d64718877aabd5e48aab55da3eb92bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916849491}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1179768502 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6694353889702400710, guid: d64718877aabd5e48aab55da3eb92bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916849491}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1221103934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4401950125854195790, guid: d64718877aabd5e48aab55da3eb92bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916849491}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1310999223
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,6 +734,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1401452722 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8733360633294306805, guid: d64718877aabd5e48aab55da3eb92bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916849491}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1453294348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -908,7 +968,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1916849491}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 40039710}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -920,7 +980,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1916849491}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1401452722}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -971,12 +1031,12 @@ PrefabInstance:
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 3.9014808e-10
+      value: -3.9011513e-10
       objectReference: {fileID: 0}
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 9.580308e-11
+      value: -9.591902e-11
       objectReference: {fileID: 0}
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
@@ -1242,6 +1302,17 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1749115917626513840, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1093354084}
+    - target: {fileID: 1749115917626513840, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: FlavorText
+      value: "It\u2019s a bit drafty in here with all those air currents. At least
+        this costume is pretty cozy."
+      objectReference: {fileID: 0}
     - target: {fileID: 1756286273016559888, guid: d64718877aabd5e48aab55da3eb92bfc,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1292,6 +1363,38 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3342574450078534524, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1179768502}
+    - target: {fileID: 3342574450078534524, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: FlavorText
+      value: "EEEAHHH, EEEEAHHH. I am just an eagle EEEEAHHHH, I\u2019m just walking
+        cause my wings are tired, that\u2019s all."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788669205295774692, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 668238089}
+    - target: {fileID: 3788669205295774692, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: FlavorText
+      value: "Why am I dressed like this? Normally Quetzalcoatl wouldn\u2019t want
+        human sacrifices, but these are pretty desperate times."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865324974231275056, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 984389354}
+    - target: {fileID: 3865324974231275056, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: FlavorText
+      value: "RARGH RARGH I\u2019m just a Jaguar RARGH!"
+      objectReference: {fileID: 0}
     - target: {fileID: 3991374009394249626, guid: d64718877aabd5e48aab55da3eb92bfc,
         type: 3}
       propertyPath: sacrifice.Array.data[0]
@@ -1326,6 +1429,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4624476062808855276, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 340419717}
+    - target: {fileID: 4624476062808855276, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: FlavorText
+      value: "\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..
+        I\u2019m sitting here silently cause I\u2019m not sure what sounds Crocodiles
+        make. \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 "
       objectReference: {fileID: 0}
     - target: {fileID: 4668182885701237783, guid: d64718877aabd5e48aab55da3eb92bfc,
         type: 3}
@@ -1382,6 +1497,17 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5733914610626173428, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1221103934}
+    - target: {fileID: 5733914610626173428, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: FlavorText
+      value: The ability to fly must be pretty cool. I wonder what it would feel
+        like to fly through the air for real. I bet Quetzalcoatl knew.
+      objectReference: {fileID: 0}
     - target: {fileID: 5863872923003357907, guid: d64718877aabd5e48aab55da3eb92bfc,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1437,6 +1563,17 @@ PrefabInstance:
       propertyPath: sacrifice.Array.data[1]
       value: 
       objectReference: {fileID: 2004627674}
+    - target: {fileID: 7449726730788228419, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1401452722}
+    - target: {fileID: 7449726730788228419, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: FlavorText
+      value: I was hesitant at first, but I gotta say, I love this outfit! I look
+        fantastic! I wish I had tried this sooner, you know, before my imminent demise.
+      objectReference: {fileID: 0}
     - target: {fileID: 7504774905363167169, guid: d64718877aabd5e48aab55da3eb92bfc,
         type: 3}
       propertyPath: sacrifice.Array.data[0]
@@ -1447,6 +1584,17 @@ PrefabInstance:
       propertyPath: sacrifice.Array.data[1]
       value: 
       objectReference: {fileID: 297485130}
+    - target: {fileID: 7676835975738596019, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 2138943869}
+    - target: {fileID: 7676835975738596019, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: FlavorText
+      value: Chirp, Chi-Chirp Chirp. Takes a lot of breath control to make those
+        sounds, kinda wish I was a god of air like Quetzalcoatl.
+      objectReference: {fileID: 0}
     - target: {fileID: 7717948224848018114, guid: d64718877aabd5e48aab55da3eb92bfc,
         type: 3}
       propertyPath: m_Name
@@ -1481,6 +1629,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 1.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504692917045801350, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 851060597}
+    - target: {fileID: 8504692917045801350, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: FlavorText
+      value: "Oh good you\u2019re here, let\u2019s get to the altar before anybody
+        else sees me dressed like this\u2026..how embarrassing."
       objectReference: {fileID: 0}
     - target: {fileID: 8649635982447424620, guid: d64718877aabd5e48aab55da3eb92bfc,
         type: 3}
@@ -1567,6 +1726,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8893108830851066399, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 40039710}
+    - target: {fileID: 8893108830851066399, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: FlavorText
+      value: "Hisssss. What? I AM hissing at you, get a move on! You\u2019ve sure
+        kept me waiting, huh?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8950385797772689869, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 109808247}
+    - target: {fileID: 8950385797772689869, guid: d64718877aabd5e48aab55da3eb92bfc,
+        type: 3}
+      propertyPath: FlavorText
+      value: "Hissss. Sorry, I wasn\u2019t hissing at you, I was just practicing
+        my snake impression. Pretty convincing huh?"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d64718877aabd5e48aab55da3eb92bfc, type: 3}
 --- !u!1 &1994801281
@@ -1641,7 +1822,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1916849491}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1093354084}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -1803,6 +1984,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106716231}
   m_CullTransparentMesh: 0
+--- !u!1 &2138943869 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8419486517862918661, guid: d64718877aabd5e48aab55da3eb92bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916849491}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7803403111540959728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1898,12 +2085,12 @@ PrefabInstance:
     - target: {fileID: 7803403112759546436, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000016168633
+      value: 0.000000044173493
       objectReference: {fileID: 0}
     - target: {fileID: 7803403112759546436, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000036577346
+      value: -0.0000000099931095
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c19974781b92fb44907c10fe432391b, type: 3}

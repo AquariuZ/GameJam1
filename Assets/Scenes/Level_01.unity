@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3133,17 +3133,17 @@ PrefabInstance:
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.2559325
+      value: 0.25593254
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000038211683
+      value: 0.000000025240881
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000001011654
+      value: -0.0000000066825265
       objectReference: {fileID: 0}
     - target: {fileID: 7803403112759546436, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
@@ -3670,6 +3670,12 @@ PrefabInstance:
       objectReference: {fileID: 844973697}
     - target: {fileID: 3143835191159325999, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
+      propertyPath: FlavorText
+      value: "You gotta be careful of edges and traps. It may be your job to sacrifice
+        us, but please don\u2019t sacrifice yourself."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143835191159325999, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
       propertyPath: FinishDialogueKey
       value: 32
       objectReference: {fileID: 0}
@@ -3678,6 +3684,12 @@ PrefabInstance:
       propertyPath: Sacrifice
       value: 
       objectReference: {fileID: 1421516198}
+    - target: {fileID: 3979238357980495920, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: FlavorText
+      value: "Having a hard time seeing? Just press either Q or E to move the camera.
+        How do I know that? Good question\u2026."
+      objectReference: {fileID: 0}
     - target: {fileID: 3979238357980495920, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
       propertyPath: FinishDialogueKey
@@ -3770,6 +3782,12 @@ PrefabInstance:
       objectReference: {fileID: 2062858326}
     - target: {fileID: 6588761961175413357, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
+      propertyPath: FlavorText
+      value: "Minute of egg yolk?\u2026..It\u2019s something I thought I\u2019d heard
+        someone say earlier, I can\u2019t get it out of my head."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6588761961175413357, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
       propertyPath: FinishDialogueKey
       value: 32
       objectReference: {fileID: 0}
@@ -3778,6 +3796,12 @@ PrefabInstance:
       propertyPath: Sacrifice
       value: 
       objectReference: {fileID: 690372522}
+    - target: {fileID: 8640361687706337301, guid: a00ddf2b5a4281d4088abb7e438c9c99,
+        type: 3}
+      propertyPath: FlavorText
+      value: "I once had this dream about this bird, and he was talking while eating
+        food. It was the strangest thing, but made me very hungry\u2026."
+      objectReference: {fileID: 0}
     - target: {fileID: 8640361687706337301, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
       propertyPath: FinishDialogueKey
@@ -3791,7 +3815,9 @@ PrefabInstance:
     - target: {fileID: 9026732068113825991, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}
       propertyPath: FlavorText
-      value: 
+      value: "Use WASD to move. To interact with things you\u2019ll want to hit F.
+        This is used to get sacrifices to follow you as well as to sacrifice them
+        at altars."
       objectReference: {fileID: 0}
     - target: {fileID: 9026732068113825991, guid: a00ddf2b5a4281d4088abb7e438c9c99,
         type: 3}

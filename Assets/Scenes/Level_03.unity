@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.19819114, g: 0.14734074, b: 0.10568201, a: 1}
+  m_IndirectSpecularColor: {r: 0.19820616, g: 0.14734054, b: 0.10549713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -121,6 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &115769572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4160359883334101939, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &116888401 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6152374064993909069, guid: a99608bea9d04944084985d27c8cd3e8,
@@ -136,6 +142,18 @@ MonoBehaviour:
 --- !u!4 &116888403 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6951131109243613906, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &158152343 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6454610641301884967, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &234301100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1207023603019793653, guid: a99608bea9d04944084985d27c8cd3e8,
     type: 3}
   m_PrefabInstance: {fileID: 1412722087}
   m_PrefabAsset: {fileID: 0}
@@ -224,27 +242,27 @@ PrefabInstance:
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.2559325
+      value: 0.25593254
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000038211683
+      value: 0.000000025240881
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000001011654
+      value: -0.0000000066825265
       objectReference: {fileID: 0}
     - target: {fileID: 7803403112759546436, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000044173493
+      value: -0.000000016168633
       objectReference: {fileID: 0}
     - target: {fileID: 7803403112759546436, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000099931095
+      value: 0.0000000036577346
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c19974781b92fb44907c10fe432391b, type: 3}
@@ -327,11 +345,29 @@ PrefabInstance:
       objectReference: {fileID: 755548984}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e171ed9e94840c46ab2ff617b81d26c, type: 3}
+--- !u!1 &590413935 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1621274524992689323, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &755548984 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
     type: 3}
   m_PrefabInstance: {fileID: 1677758010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &788026383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5718620584655582307, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &873008548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1174510701519826160, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1115959195
 GameObject:
@@ -425,6 +461,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1230655314 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1857030201565697603, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1252240415 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2633150798235073765, guid: a99608bea9d04944084985d27c8cd3e8,
@@ -438,6 +480,28 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 22909308759045669, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 115769572}
+    - target: {fileID: 22909308759045669, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: To fall in battle, or honor the gifts of Xipe Totec, I gladly give my
+        life!
+      objectReference: {fileID: 0}
+    - target: {fileID: 371811961339090416, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1703966085}
+    - target: {fileID: 371811961339090416, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: "We can\u2019t farm much in the dry season, but thanks to Xipe Totec,
+        we also get a rainy season. Pretty lucky!"
+      objectReference: {fileID: 0}
     - target: {fileID: 1099613327597892610, guid: a99608bea9d04944084985d27c8cd3e8,
         type: 3}
       propertyPath: sacrifice.Array.size
@@ -603,6 +667,17 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -7
       objectReference: {fileID: 0}
+    - target: {fileID: 3281801114253164701, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 2140513242}
+    - target: {fileID: 3281801114253164701, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: It takes bravery to be a warrior, to give up yourself for others. This
+        is just another day on the job for us.
+      objectReference: {fileID: 0}
     - target: {fileID: 3516800470757455361, guid: a99608bea9d04944084985d27c8cd3e8,
         type: 3}
       propertyPath: pieces.Array.data[0]
@@ -668,6 +743,17 @@ PrefabInstance:
       propertyPath: sacrifice.Array.data[2]
       value: 
       objectReference: {fileID: 1412722094}
+    - target: {fileID: 4483650422667843391, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 788026383}
+    - target: {fileID: 4483650422667843391, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: "That\u2019s some mighty fine corn, Xipe Totec would be proud. I wonder
+        if he likes corn? Maybe not after feeding us his skin part."
+      objectReference: {fileID: 0}
     - target: {fileID: 5472947222311156897, guid: a99608bea9d04944084985d27c8cd3e8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -723,6 +809,38 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -7
       objectReference: {fileID: 0}
+    - target: {fileID: 6953153815525363121, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 158152343}
+    - target: {fileID: 6953153815525363121, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: Xipe Totec literally gave himself up for us. Time to return the favor.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001140361829519276, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 873008548}
+    - target: {fileID: 7001140361829519276, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: "You might have noticed it\u2019s pretty dry up here, get me to that
+        altar and let\u2019s do something about it!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036182551014516649, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 234301100}
+    - target: {fileID: 7036182551014516649, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: "We can thank Xipe Totec for this bountiful harvest. For my family,
+        I\u2019ll do what I must to pay it forward. So let\u2019s get moving\u2026.forward."
+      objectReference: {fileID: 0}
     - target: {fileID: 7306533015476164334, guid: a99608bea9d04944084985d27c8cd3e8,
         type: 3}
       propertyPath: sacrifice.Array.size
@@ -773,6 +891,28 @@ PrefabInstance:
       propertyPath: moveTransform
       value: 
       objectReference: {fileID: 1985522927}
+    - target: {fileID: 7429342642687719415, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 590413935}
+    - target: {fileID: 7429342642687719415, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: "I\u2019ll admit I\u2019m a bit scared, but not nearly as much as Xipe
+        Totec must have been. I got this! Or well, you got this. I\u2019ll just follow."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539237377462154527, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1230655314}
+    - target: {fileID: 7539237377462154527, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: "I hope you\u2019ll pass on what you\u2019ve learned here. Future generations
+        gotta eat too, gotta make our gifts worthwhile."
+      objectReference: {fileID: 0}
     - target: {fileID: 8151900883490061053, guid: a99608bea9d04944084985d27c8cd3e8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -841,7 +981,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1412722087}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1703966085}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -853,7 +993,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1412722087}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 873008548}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -865,7 +1005,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1412722087}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 590413935}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -877,7 +1017,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1412722087}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 234301100}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -889,7 +1029,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1412722087}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 788026383}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -901,7 +1041,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1412722087}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1230655314}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -913,7 +1053,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1412722087}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 115769572}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -925,7 +1065,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1412722087}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 158152343}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -937,7 +1077,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1412722087}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2140513242}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de75c4eed07c9924985378d0c8fcc46c, type: 3}
@@ -994,12 +1134,12 @@ PrefabInstance:
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -3.9011513e-10
+      value: 3.9014808e-10
       objectReference: {fileID: 0}
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -9.591902e-11
+      value: 9.580308e-11
       objectReference: {fileID: 0}
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
@@ -1033,9 +1173,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 764e7592eec698a47a797bdaaf987c09, type: 3}
+--- !u!1 &1703966085 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8380440587569985196, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1985522927 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6004254564558074626, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2140513242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1470071345848081675, guid: a99608bea9d04944084985d27c8cd3e8,
     type: 3}
   m_PrefabInstance: {fileID: 1412722087}
   m_PrefabAsset: {fileID: 0}
