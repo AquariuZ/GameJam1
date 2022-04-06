@@ -517,6 +517,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2377c5910763d734ca70e5c94659ff6a, type: 3}
+--- !u!4 &196461782 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4842146970689730498, guid: 932463105fe9f8449b332a989409d280,
+    type: 3}
+  m_PrefabInstance: {fileID: 1081609400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &262174831
 GameObject:
   m_ObjectHideFlags: 0
@@ -2099,6 +2105,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 434331315233105024, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.342864
+      objectReference: {fileID: 0}
+    - target: {fileID: 434331315233105024, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -2.182816
+      objectReference: {fileID: 0}
     - target: {fileID: 958329761526453683, guid: 932463105fe9f8449b332a989409d280,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2136,6 +2152,21 @@ PrefabInstance:
         what T\u014Dnac\u0101t\u0113cuhtl and Tonacacihuatl did for us, I\u2019d
         say it\u2019s a small price to pay."
       objectReference: {fileID: 0}
+    - target: {fileID: 2281831215957557645, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: moveTransform
+      value: 
+      objectReference: {fileID: 196461782}
+    - target: {fileID: 2281831215957557645, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: rotateOffset.x
+      value: 135
+      objectReference: {fileID: 0}
+    - target: {fileID: 2281831215957557645, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: rotateTransform
+      value: 
+      objectReference: {fileID: 196461782}
     - target: {fileID: 2894963836227591746, guid: 932463105fe9f8449b332a989409d280,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2196,11 +2227,51 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4087178453172000163, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.9478655
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087178453172000163, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087178453172000163, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -1.9146247
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188636085330154702, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.3476739
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188636085330154702, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -2.185221
+      objectReference: {fileID: 0}
     - target: {fileID: 4269794039849804415, guid: 932463105fe9f8449b332a989409d280,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4431023410083735566, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: moveTransform
+      value: 
+      objectReference: {fileID: 1350198430}
+    - target: {fileID: 4431023410083735566, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: rotateOffset.x
+      value: 135
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431023410083735566, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: rotateTransform
+      value: 
+      objectReference: {fileID: 1350198430}
     - target: {fileID: 4431038467465566505, guid: 932463105fe9f8449b332a989409d280,
         type: 3}
       propertyPath: Sacrifice
@@ -2256,11 +2327,26 @@ PrefabInstance:
       propertyPath: FlavorText
       value: "Oh me? I was just taking a nap. Let\u2019s get to that altar!"
       objectReference: {fileID: 0}
+    - target: {fileID: 5661409341673780133, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.9958949
+      objectReference: {fileID: 0}
+    - target: {fileID: 5661409341673780133, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -2.009332
+      objectReference: {fileID: 0}
     - target: {fileID: 5789249685209420339, guid: 932463105fe9f8449b332a989409d280,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6068328925285618492, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: pieces.Array.data[0]
+      value: 
+      objectReference: {fileID: 1783679088}
     - target: {fileID: 6068328925285618492, guid: 932463105fe9f8449b332a989409d280,
         type: 3}
       propertyPath: sacrifice.Array.size
@@ -2278,6 +2364,21 @@ PrefabInstance:
         that a fair bargain! I wonder what T\u014Dnac\u0101t\u0113cuhtl\u2019s last
         meal was?"
       objectReference: {fileID: 0}
+    - target: {fileID: 6286148408621881000, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: moveTransform
+      value: 
+      objectReference: {fileID: 1997768953}
+    - target: {fileID: 6286148408621881000, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: rotateOffset.x
+      value: 135
+      objectReference: {fileID: 0}
+    - target: {fileID: 6286148408621881000, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: rotateTransform
+      value: 
+      objectReference: {fileID: 1997768953}
     - target: {fileID: 6695392645269718675, guid: 932463105fe9f8449b332a989409d280,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2288,6 +2389,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -4.67
       objectReference: {fileID: 0}
+    - target: {fileID: 7717739264430827238, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: moveTransform
+      value: 
+      objectReference: {fileID: 1690550960}
+    - target: {fileID: 7717739264430827238, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: rotateOffset.x
+      value: 135
+      objectReference: {fileID: 0}
+    - target: {fileID: 7717739264430827238, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: rotateTransform
+      value: 
+      objectReference: {fileID: 1690550960}
     - target: {fileID: 7749224024692663905, guid: 932463105fe9f8449b332a989409d280,
         type: 3}
       propertyPath: Sacrifice
@@ -2298,6 +2414,16 @@ PrefabInstance:
       propertyPath: FlavorText
       value: Have you noticed those pillars moving up and down? Best way to move
         between the upper and lower levels!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801858512467548710, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.7369864
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801858512467548710, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -2.3798766
       objectReference: {fileID: 0}
     - target: {fileID: 7849364702884577761, guid: 932463105fe9f8449b332a989409d280,
         type: 3}
@@ -2673,6 +2799,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2377c5910763d734ca70e5c94659ff6a, type: 3}
+--- !u!4 &1350198430 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7054425054293433921, guid: 932463105fe9f8449b332a989409d280,
+    type: 3}
+  m_PrefabInstance: {fileID: 1081609400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1360440968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2842,17 +2974,17 @@ PrefabInstance:
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.2559325
+      value: 0.25593254
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000038211683
+      value: 0.000000025240881
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000001011654
+      value: -0.0000000066825265
       objectReference: {fileID: 0}
     - target: {fileID: 7803403112098687360, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
@@ -3474,6 +3606,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671329923}
   m_CullTransparentMesh: 0
+--- !u!4 &1690550960 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3999927219668799657, guid: 932463105fe9f8449b332a989409d280,
+    type: 3}
+  m_PrefabInstance: {fileID: 1081609400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1750488695 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2128853309680296637, guid: 932463105fe9f8449b332a989409d280,
@@ -4503,6 +4641,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2377c5910763d734ca70e5c94659ff6a, type: 3}
+--- !u!4 &1997768953 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 838954625573249255, guid: 932463105fe9f8449b332a989409d280,
+    type: 3}
+  m_PrefabInstance: {fileID: 1081609400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2079595363 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4126375774877551775, guid: 932463105fe9f8449b332a989409d280,
