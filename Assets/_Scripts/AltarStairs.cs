@@ -8,6 +8,8 @@ public class AltarStairs : AltarPiece
     [SerializeField] private Ease easeType = Ease.OutBack;
     [SerializeField] private Vector3 position1;
     [SerializeField] private Vector3 position2;
+
+    private bool pos1 = true;
     
     [NonSerialized]
     public bool activated = false;
@@ -15,18 +17,18 @@ public class AltarStairs : AltarPiece
     public override void Activate()
     {
         base.Activate();
-        if (transform.position == position1)
+        if (pos1)
         {
             transform.DOMove(position2, moveDuration).SetEase(easeType).OnComplete(() =>
             {
-                
+                pos1 = false;
             });
         }
-        else if (transform.position == position2)
+        else
         {
             transform.DOMove(position1, moveDuration).SetEase(easeType).OnComplete(() =>
             {
-                
+                pos1 = true;
             });
         }
     }
