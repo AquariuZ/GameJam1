@@ -14,6 +14,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5403823309505316138, guid: c9f573b83ed6ce9469eb38b1f4c770ed, type: 3}
+--- !u!65 &2924458945958492071
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426298372656971827}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0611823, y: 0.38500786, z: 2.3234768}
+  m_Center: {x: -0.07577312, y: 0.20417213, z: 0.00021076202}
 --- !u!1001 &66721365823520602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86,6 +99,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level_4_Bridge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9f573b83ed6ce9469eb38b1f4c770ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9f573b83ed6ce9469eb38b1f4c770ed, type: 3}
 --- !u!1 &877185340402287115 stripped
@@ -101,6 +119,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 92196690912949723, guid: 2bb688ff1053dc74ca802bf7d1258f72,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 318216874990428739, guid: 2bb688ff1053dc74ca802bf7d1258f72,
+        type: 3}
+      propertyPath: moveTransform
+      value: 
+      objectReference: {fileID: 3878020952786754612}
+    - target: {fileID: 318216874990428739, guid: 2bb688ff1053dc74ca802bf7d1258f72,
+        type: 3}
+      propertyPath: rotateTransform
+      value: 
+      objectReference: {fileID: 3878020952786754612}
     - target: {fileID: 1433130967478240663, guid: 2bb688ff1053dc74ca802bf7d1258f72,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -161,10 +194,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4017550607640612667, guid: 2bb688ff1053dc74ca802bf7d1258f72,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4388164379697578432, guid: 2bb688ff1053dc74ca802bf7d1258f72,
         type: 3}
       propertyPath: m_Name
       value: Lv4 Bridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388164379697578432, guid: 2bb688ff1053dc74ca802bf7d1258f72,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4656100399224277716, guid: 2bb688ff1053dc74ca802bf7d1258f72,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7851623416545946193, guid: 2bb688ff1053dc74ca802bf7d1258f72,
         type: 3}
@@ -173,6 +221,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb688ff1053dc74ca802bf7d1258f72, type: 3}
+--- !u!4 &3878020952786754612 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3565856912404556252, guid: 2bb688ff1053dc74ca802bf7d1258f72,
+    type: 3}
+  m_PrefabInstance: {fileID: 336934869850322408}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &426298372656971827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 92196690912949723, guid: 2bb688ff1053dc74ca802bf7d1258f72,
+    type: 3}
+  m_PrefabInstance: {fileID: 336934869850322408}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4001166468779977466 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3687313187676053266, guid: 2bb688ff1053dc74ca802bf7d1258f72,
