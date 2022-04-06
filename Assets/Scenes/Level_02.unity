@@ -622,6 +622,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1984210987}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &283796909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5484127948797917813, guid: 932463105fe9f8449b332a989409d280,
+    type: 3}
+  m_PrefabInstance: {fileID: 1081609400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &327186692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1214,6 +1220,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2377c5910763d734ca70e5c94659ff6a, type: 3}
+--- !u!1 &607471688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1940903431086458173, guid: 932463105fe9f8449b332a989409d280,
+    type: 3}
+  m_PrefabInstance: {fileID: 1081609400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &640397622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1283,6 +1295,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cfef3af318ff5748a4564ee3a052efa, type: 3}
+--- !u!1 &646461828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3694325311436692636, guid: 932463105fe9f8449b332a989409d280,
+    type: 3}
+  m_PrefabInstance: {fileID: 1081609400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &832426288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1936,6 +1954,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2052171885691861127, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1555233954}
+    - target: {fileID: 2052171885691861127, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: FlavorText
+      value: "It may seem like giving up my life is a sacrifice, but compared to
+        what T\u014Dnac\u0101t\u0113cuhtl and Tonacacihuatl did for us, I\u2019d
+        say it\u2019s a small price to pay."
+      objectReference: {fileID: 0}
     - target: {fileID: 2894963836227591746, guid: 932463105fe9f8449b332a989409d280,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2001,15 +2031,94 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4431038467465566505, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 283796909}
+    - target: {fileID: 4431038467465566505, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: FlavorText
+      value: "This room is pretty symmetrical. I think it\u2019s supposed to represent
+        the duality between T\u014Dnac\u0101t\u0113cuhtl and Tonacacihuatl. Me, I
+        think it just looks nice."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765193365781184448, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 646461828}
+    - target: {fileID: 4765193365781184448, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: FlavorText
+      value: "Their contributions alone did a lot for us, but coming together? That\u2019s
+        a really admirable thing. Just like you and me!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086595232347504584, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1837798355}
+    - target: {fileID: 5086595232347504584, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: FlavorText
+      value: "We\u2019ve been gifted with such an abundance of food thanks to Tonacacihuatl,
+        I\u2019m more than willing to give my life for that to continue. Maybe pick
+        up the pace a bit?, haven\u2019t got all day."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5198961248248459203, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 2079595363}
+    - target: {fileID: 5198961248248459203, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: FlavorText
+      value: "Oh me? I was just taking a nap. Let\u2019s get to that altar!"
+      objectReference: {fileID: 0}
     - target: {fileID: 5789249685209420339, guid: 932463105fe9f8449b332a989409d280,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6087314554061714214, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1307325645}
+    - target: {fileID: 6087314554061714214, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: FlavorText
+      value: "I had a great last meal, if the cost is giving my life, I\u2019d call
+        that a fair bargain! I wonder what T\u014Dnac\u0101t\u0113cuhtl\u2019s last
+        meal was?"
+      objectReference: {fileID: 0}
     - target: {fileID: 6695392645269718675, guid: 932463105fe9f8449b332a989409d280,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749224024692663905, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 607471688}
+    - target: {fileID: 7749224024692663905, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: FlavorText
+      value: Have you noticed those pillars moving up and down? Best way to move
+        between the upper and lower levels!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7849364702884577761, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1750488695}
+    - target: {fileID: 7849364702884577761, guid: 932463105fe9f8449b332a989409d280,
+        type: 3}
+      propertyPath: FlavorText
+      value: "It\u2019s pretty weird there used to be nothing. Though I guess I\u2019m
+        doing nothing but following you right now, so maybe it\u2019s not that weird?"
       objectReference: {fileID: 0}
     - target: {fileID: 8886997646135236388, guid: 932463105fe9f8449b332a989409d280,
         type: 3}
@@ -2294,6 +2403,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2377c5910763d734ca70e5c94659ff6a, type: 3}
+--- !u!1 &1307325645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2675071142329159802, guid: 932463105fe9f8449b332a989409d280,
+    type: 3}
+  m_PrefabInstance: {fileID: 1081609400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1335316271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2587,12 +2702,12 @@ PrefabInstance:
     - target: {fileID: 7803403112759546436, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000044173508
+      value: 0.000000016168618
       objectReference: {fileID: 0}
     - target: {fileID: 7803403112759546436, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000009993113
+      value: -0.0000000036577301
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c19974781b92fb44907c10fe432391b, type: 3}
@@ -2734,6 +2849,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 087732a94f2907c4ebf6f3c669cb13cb, type: 3}
+--- !u!1 &1555233954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7863135584740482011, guid: 932463105fe9f8449b332a989409d280,
+    type: 3}
+  m_PrefabInstance: {fileID: 1081609400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1558072715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3158,6 +3279,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671329923}
   m_CullTransparentMesh: 0
+--- !u!1 &1750488695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2128853309680296637, guid: 932463105fe9f8449b332a989409d280,
+    type: 3}
+  m_PrefabInstance: {fileID: 1081609400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1760533411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3521,6 +3648,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2377c5910763d734ca70e5c94659ff6a, type: 3}
+--- !u!1 &1837798355 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4031434406282452116, guid: 932463105fe9f8449b332a989409d280,
+    type: 3}
+  m_PrefabInstance: {fileID: 1081609400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1841343626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4051,12 +4184,12 @@ PrefabInstance:
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 3.9011538e-10
+      value: -3.901479e-10
       objectReference: {fileID: 0}
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 9.591817e-11
+      value: -9.580382e-11
       objectReference: {fileID: 0}
     - target: {fileID: 3640446398648628422, guid: 764e7592eec698a47a797bdaaf987c09,
         type: 3}
@@ -4144,6 +4277,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2377c5910763d734ca70e5c94659ff6a, type: 3}
+--- !u!1 &2079595363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4126375774877551775, guid: 932463105fe9f8449b332a989409d280,
+    type: 3}
+  m_PrefabInstance: {fileID: 1081609400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2082747005
 PrefabInstance:
   m_ObjectHideFlags: 0

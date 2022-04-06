@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.19819114, g: 0.14734074, b: 0.10568201, a: 1}
+  m_IndirectSpecularColor: {r: 0.19820616, g: 0.14734054, b: 0.10549713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -426,6 +426,27 @@ PrefabInstance:
       propertyPath: position2.z
       value: -7.03
       objectReference: {fileID: 0}
+    - target: {fileID: 371811961339090416, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1412722095}
+    - target: {fileID: 371811961339090416, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: "You might have noticed it\u2019s pretty dry up here, get me to that
+        altar and let\u2019s do something about it!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069606137580189519, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1412722089}
+    - target: {fileID: 1069606137580189519, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: Xipe Totec literally gave himself up for us. Time to return the favor.
+      objectReference: {fileID: 0}
     - target: {fileID: 1680710828831925214, guid: a99608bea9d04944084985d27c8cd3e8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -501,10 +522,43 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3412476657635352637, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1412722090}
+    - target: {fileID: 3412476657635352637, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: It takes bravery to be a warrior, to give up yourself for others. This
+        is just another day on the job for us.
+      objectReference: {fileID: 0}
     - target: {fileID: 3640009563288792644, guid: a99608bea9d04944084985d27c8cd3e8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483650422667843391, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1412722093}
+    - target: {fileID: 4483650422667843391, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: "That\u2019s some mighty fine corn, Xipe Totec would be proud. I wonder
+        if he likes corn? Maybe not after feeding us his skin part."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4509872244542173189, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1412722088}
+    - target: {fileID: 4509872244542173189, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: To fall in battle, or honor the gifts of Xipe Totec, I gladly give my
+        life!
       objectReference: {fileID: 0}
     - target: {fileID: 5472947222311156897, guid: a99608bea9d04944084985d27c8cd3e8,
         type: 3}
@@ -521,10 +575,54 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prefab_Level_03
       objectReference: {fileID: 0}
+    - target: {fileID: 7001140361829519276, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1412722096}
+    - target: {fileID: 7001140361829519276, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: "We can\u2019t farm much in the dry season, But thanks to Xipe Totec,
+        we also get a rainy season. Pretty lucky."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036182551014516649, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1412722092}
+    - target: {fileID: 7036182551014516649, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: "We can thank Xipe Totec for this bountiful harvest. For my family,
+        I\u2019ll do what I must to pay it forward. So let\u2019s get moving\u2026.forward."
+      objectReference: {fileID: 0}
     - target: {fileID: 7310649133480436965, guid: a99608bea9d04944084985d27c8cd3e8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429342642687719415, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1412722091}
+    - target: {fileID: 7429342642687719415, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: "I\u2019ll admit I\u2019m a bit scared, but not nearly as much as Xipe
+        Totec must have been. I got this! Or well, you got this. I\u2019ll just follow."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539237377462154527, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1412722094}
+    - target: {fileID: 7539237377462154527, guid: a99608bea9d04944084985d27c8cd3e8,
+        type: 3}
+      propertyPath: FlavorText
+      value: "I hope you\u2019ll pass on what you\u2019ve learned here. Future generations
+        gotta eat too, gotta make our gifts worthwhile."
       objectReference: {fileID: 0}
     - target: {fileID: 8151900883490061053, guid: a99608bea9d04944084985d27c8cd3e8,
         type: 3}
@@ -543,6 +641,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a99608bea9d04944084985d27c8cd3e8, type: 3}
+--- !u!1 &1412722088 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 539229403417128339, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1412722089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3978353839282629337, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1412722090 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1636636049346215339, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1412722091 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1621274524992689323, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1412722092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1207023603019793653, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1412722093 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5718620584655582307, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1412722094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1857030201565697603, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1412722095 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8380440587569985196, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1412722096 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1174510701519826160, guid: a99608bea9d04944084985d27c8cd3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1412722087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1518901283
 PrefabInstance:
   m_ObjectHideFlags: 0
