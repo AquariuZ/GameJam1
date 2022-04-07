@@ -30,6 +30,7 @@ public class AirElevator : AltarPiece
             {
                 //is done
                 _playerRef.transform.Find("GroundCheck").gameObject.SetActive(true);
+                _timer = 0.0f;
                 _isWorking = false;
                 return;
             }
