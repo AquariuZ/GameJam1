@@ -2799,7 +2799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveTransform: {fileID: 1916849493}
-  moveOffset: {x: 0, y: -1, z: 1}
+  moveOffset: {x: 0, y: -1.5, z: 1}
   rotateTransform: {fileID: 1916849493}
   rotateOffset: {x: 0, y: 0, z: -90}
   moveDuration: 1
@@ -2818,7 +2818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveTransform: {fileID: 1916849495}
-  moveOffset: {x: 0, y: -1, z: 1}
+  moveOffset: {x: 0, y: -1.5, z: 1}
   rotateTransform: {fileID: 1916849495}
   rotateOffset: {x: 0, y: 0, z: -90}
   moveDuration: 1
@@ -2837,7 +2837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveTransform: {fileID: 1916849497}
-  moveOffset: {x: 0, y: -1, z: 1}
+  moveOffset: {x: 0, y: -1.5, z: 1}
   rotateTransform: {fileID: 1916849497}
   rotateOffset: {x: 0, y: 0, z: -90}
   moveDuration: 1
@@ -2856,7 +2856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveTransform: {fileID: 1916849499}
-  moveOffset: {x: 0, y: -1, z: 1}
+  moveOffset: {x: 0, y: -1.5, z: 1}
   rotateTransform: {fileID: 1916849499}
   rotateOffset: {x: 0, y: 0, z: -90}
   moveDuration: 1
@@ -3352,17 +3352,17 @@ PrefabInstance:
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.2559325
+      value: 0.25593254
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000038211683
+      value: 0.000000025240881
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000001011654
+      value: -0.0000000066825265
       objectReference: {fileID: 0}
     - target: {fileID: 7803403112759546436, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
