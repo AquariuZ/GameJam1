@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.053739846, g: 0.032002978, b: 0.09300002, a: 1}
+  m_IndirectSpecularColor: {r: 0.052823946, g: 0.032944523, b: 0.09211271, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4645,17 +4645,17 @@ PrefabInstance:
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.25593254
+      value: 0.2559325
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000025240881
+      value: -0.0000000038211683
       objectReference: {fileID: 0}
     - target: {fileID: 7803403111945365074, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000066825265
+      value: 0.000000001011654
       objectReference: {fileID: 0}
     - target: {fileID: 7803403112759546436, guid: 7c19974781b92fb44907c10fe432391b,
         type: 3}
@@ -4887,6 +4887,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickupPerson
       objectReference: {fileID: 0}
+    - target: {fileID: 5891121488392071954, guid: 44f87b8055d1fec4a834c16f92ae906d,
+        type: 3}
+      propertyPath: Sacrifice
+      value: 
+      objectReference: {fileID: 1949842988}
     - target: {fileID: 6657489328835905082, guid: 44f87b8055d1fec4a834c16f92ae906d,
         type: 3}
       propertyPath: m_RootOrder
@@ -4944,6 +4949,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44f87b8055d1fec4a834c16f92ae906d, type: 3}
+--- !u!1 &1949842988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8363711009269986037, guid: 4e171ed9e94840c46ab2ff617b81d26c,
+    type: 3}
+  m_PrefabInstance: {fileID: 8363711010484573012}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1961416684 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 472038481517208393, guid: a00ddf2b5a4281d4088abb7e438c9c99,

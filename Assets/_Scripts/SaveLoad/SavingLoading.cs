@@ -14,7 +14,7 @@ namespace _Scripts.SaveLoad
 
         private void Start()
         {
-            listOfSaveableObjects = GetAllSaveableObjectsInScene();
+       //     listOfSaveableObjects = GetAllSaveableObjectsInScene();
         }
 
         [ContextMenu("Save")]
@@ -73,18 +73,18 @@ namespace _Scripts.SaveLoad
             }
         }
         
-        private static List<SaveableEntity> GetAllSaveableObjectsInScene() 
-        { 
-            List<SaveableEntity> objectsInScene = new List<SaveableEntity>();
-            foreach (var go in Resources.FindObjectsOfTypeAll<SaveableEntity>())
-            {
-                if (go.hideFlags != HideFlags.None)
-                    continue;
-                if (PrefabUtility.GetPrefabType(go.gameObject) == PrefabType.Prefab || PrefabUtility.GetPrefabType(go.gameObject) == PrefabType.ModelPrefab)
-                    continue;
-                objectsInScene.Add(go);
-            }
-            return objectsInScene;
-        }
+        //private static List<SaveableEntity> GetAllSaveableObjectsInScene() 
+        //{ 
+        //    List<SaveableEntity> objectsInScene = new List<SaveableEntity>();
+        //    foreach (var go in Resources.FindObjectsOfTypeAll<SaveableEntity>())
+        //    {
+        //        if (go.hideFlags != HideFlags.None)
+        //            continue;
+        //        if (PrefabUtility.GetPrefabType(go.gameObject) == PrefabType.Prefab || PrefabUtility.GetPrefabType(go.gameObject) == PrefabType.ModelPrefab)
+        //            continue;
+        //        objectsInScene.Add(go);
+        //    }
+        //    return objectsInScene;
+        //}
     }
 }
